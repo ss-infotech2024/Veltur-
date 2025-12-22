@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2 text-sm">
             <p>© 2024 वेलतूर ग्रामपंचायत, पं.स. सावकर पं. जामखेड. सर्व हक्क राखीव.</p>
-            <p>विकसित: <span className="text-saffron font-medium">डिजिटल ग्राम मिशन</span></p>
+            <p>विकसित: <span className="text-saffron font-medium">SS Infotech</span></p>
           </div>
         </div>
       </div>
