@@ -12,16 +12,15 @@ import { Helmet } from "react-helmet-async";
 const Index = () => {
   return (
     <Layout>
-     
-      
+
+
       <HeroSection />
       {/* <LeadershipSection /> */}
-      <TeamSection/>
+      <TeamSection />
       <VisionSection />
       <ServicesSection />
       <StatsSection />
       <MembersSection />
-      <TeamGallerySection />
     </Layout>
   );
 };
