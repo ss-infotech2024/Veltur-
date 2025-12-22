@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full">
-    
+
 
       {/* Main header */}
       <div className="bg-card shadow-card border-b-4 border-gold">
@@ -42,11 +42,10 @@ const Header = () => {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-4 py-2 rounded-md font-medium transition-all duration-200 ${
-                    location.pathname === link.path
-                      ? "bg-primary text-primary-foreground"
-                      : "text-foreground hover:bg-secondary hover:text-primary"
-                  }`}
+                  className={`px-4 py-2 rounded-md font-medium transition-all duration-200 ${location.pathname === link.path
+                    ? "bg-primary text-primary-foreground"
+                    : "text-foreground hover:bg-secondary hover:text-primary"
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -55,9 +54,7 @@ const Header = () => {
 
             {/* Right side */}
             <div className="flex items-center gap-2">
-              <Button variant="ghost" size="icon" className="text-primary">
-                <Search size={20} />
-              </Button>
+
               <Button
                 variant="ghost"
                 size="icon"
@@ -79,21 +76,15 @@ const Header = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-3 rounded-md font-medium transition-all ${
-                    location.pathname === link.path
-                      ? "bg-primary text-primary-foreground"
-                      : "text-foreground hover:bg-secondary"
-                  }`}
+                  className={`px-4 py-3 rounded-md font-medium transition-all ${location.pathname === link.path
+                    ? "bg-primary text-primary-foreground"
+                    : "text-foreground hover:bg-secondary"
+                    }`}
                 >
                   {link.name}
                 </Link>
               ))}
-              <div className="flex items-center gap-4 pt-4 border-t border-border mt-2">
-                <a href="#" className="text-primary hover:text-saffron"><Facebook size={20} /></a>
-                <a href="#" className="text-primary hover:text-saffron"><Youtube size={20} /></a>
-                <a href="#" className="text-primary hover:text-saffron"><Instagram size={20} /></a>
-                <a href="#" className="text-primary hover:text-saffron"><Twitter size={20} /></a>
-              </div>
+
             </nav>
           </div>
         )}
