@@ -35,7 +35,7 @@ const Contact = () => {
         <meta name="description" content="वेलतूर ग्रामपंचायतीशी संपर्क साधा. पत्ता, फोन नंबर, ईमेल आणि कार्यालयीन वेळ." />
       </Helmet>
 
-      <PageHeader 
+      <PageHeader
         title="संपर्क साधा"
         subtitle="आपल्या सूचना, तक्रारी किंवा माहितीसाठी संपर्क करा"
         breadcrumbs={[{ label: "संपर्क" }]}
@@ -47,7 +47,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div>
               <h2 className="text-2xl font-bold text-foreground mb-6">संपर्क माहिती</h2>
-              
+
               <div className="space-y-6">
                 <Card className="bg-card border-2 border-border">
                   <CardContent className="p-6">
@@ -133,8 +133,8 @@ const Contact = () => {
                     <p className="text-sm text-muted-foreground mt-2">
                       गूगल मॅप्स वर शोधा: "वेलतूर ग्रामपंचायत"
                     </p>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       className="mt-3"
                       onClick={() => window.open('https://maps.google.com/?q=Veltur+Grampanchayat+Jambhed', '_blank')}
                     >
@@ -148,7 +148,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div>
               <h2 className="text-2xl font-bold text-foreground mb-6">संदेश पाठवा</h2>
-              
+
               <Card className="bg-card border-2 border-border shadow-card">
                 <CardContent className="p-6">
                   <form onSubmit={handleSubmit} className="space-y-4">
@@ -242,7 +242,7 @@ const Contact = () => {
                     <p>101 - अग्निशमन</p>
                   </div>
                 </div>
-                
+
                 {/* Local Contacts */}
                 <div className="mt-6 pt-4 border-t border-primary-foreground/20">
                   <h4 className="font-bold mb-2">स्थानिक संपर्क</h4>
@@ -254,21 +254,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Quick Links */}
-              <div className="mt-6">
-                <h3 className="font-bold text-foreground mb-3">द्रुत लिंक्स</h3>
-                <div className="flex flex-wrap gap-2">
-                  <Button variant="outline" size="sm" onClick={() => window.open('https://www.tcs.com', '_blank')}>
-                    TCS वेबसाइट
-                  </Button>
-                  <Button variant="outline" size="sm" onClick={() => window.open('https://mahagrampanchayat.gov.in', '_blank')}>
-                    महाग्रामपंचायत
-                  </Button>
-                  <Button variant="outline" size="sm" onClick={() => window.open('https://jamtaluka.org', '_blank')}>
-                    जामखेड तालुका
-                  </Button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
