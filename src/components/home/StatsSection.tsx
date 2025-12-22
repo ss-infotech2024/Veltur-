@@ -21,7 +21,7 @@ const stats = [
   },
   {
     icon: Calendar,
-    value: "1952",
+    value: "1962",
     label: "स्थापना वर्ष",
     suffix: "पासून",
   },

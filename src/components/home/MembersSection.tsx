@@ -89,14 +89,14 @@ const panchayatMembers = [
     image: "/1.jpeg",
   },
   {
-    name: "श्रीमती. निर्मला ज्ञानदेवजी कंबले",
+    name: "श्रीमती. निर्मला ज्ञानदेवजी कांबळे",
     position: "ग्रामपंचायत सदस्य",
     badge: "सदस्य",
     color: "bg-primary",
     image: "/30.jpeg",
   },
   {
-    name: "श्री. गणेश संपतराव डखोले",
+    name: "श्री. गणेश संपतराव दाखळे",
     position: "ग्रामपंचायत सदस्य",
     badge: "सदस्य",
     color: "bg-primary",
@@ -110,14 +110,14 @@ const panchayatMembers = [
     image: "/31.jpeg",
   },
   {
-    name: "सौ. रोशनी राजेशजी चिकाटे",
+    name: "सौ. रोशनी राजेशजी चिकटे",
     position: "ग्रामपंचायत सदस्य",
     badge: "सदस्य",
     color: "bg-primary",
     image: "/34.jpeg",
   },
   {
-    name: "श्री. प्रफुल्ल रामेशराव कडू",
+    name: "श्री. प्रफुल्ल रमेशराव कडू",
     position: "ग्रामपंचायत सदस्य",
     badge: "सदस्य",
     color: "bg-primary",
