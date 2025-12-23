@@ -34,7 +34,7 @@ const Header = () => {
 />
               <div className="hidden sm:block">
                 <h1 className="text-xl font-bold text-primary">वेलतूर ग्रामपंचायत</h1>
-                <p className="text-xs text-muted-foreground">ता. चामोर्शी, जि. गडचिरोली, महाराष्ट्र</p>
+                <p className="text-xs text-muted-foreground">ता. सावनेर जि. नागपूर</p>
               </div>
             </Link>
 
