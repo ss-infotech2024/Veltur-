@@ -27,9 +27,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-14 h-14 rounded-full gradient-hero flex items-center justify-center text-primary-foreground font-bold text-xl border-2 border-gold">
-                वे
-              </div>
+                         <img 
+  src="/logo2.png" 
+  alt="वेलतूर ग्रामपंचायत लोगो" 
+  className="w-32 h-32 md:w-20 md:h-20 rounded-full object-contain border-[6px] border-yellow-400 shadow-2xl drop-shadow-lg bg-white ring-8 ring-yellow-300/30"
+/>
               <div className="hidden sm:block">
                 <h1 className="text-xl font-bold text-primary">वेलतूर ग्रामपंचायत</h1>
                 <p className="text-xs text-muted-foreground">ता. चामोर्शी, जि. गडचिरोली, महाराष्ट्र</p>

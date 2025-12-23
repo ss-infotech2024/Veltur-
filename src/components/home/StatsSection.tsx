@@ -3,26 +3,26 @@ import { Users, Map, Building, Calendar } from "lucide-react";
 const stats = [
   {
     icon: Users,
-    value: "686",
+    value: "688",
     label: "एकूण लोकसंख्या",
     suffix: "नागरिक (पुरुष: 358, स्त्री: 328)",
   },
   {
     icon: Map,
-    value: "300.8",
-    label: "क्षेत्रफळ",
+    value: "399.4",
+    label: "गावाचे क्षेत्रफळ",
     suffix: "हेक्टर",
   },
   {
     icon: Building,
     value: "2",
     label: "एकूण प्रकल्प",
-    suffix: "प्रकल्प",
+    suffix: "विकास प्रकल्प",
   },
   {
     icon: Calendar,
-    value: "1962",
-    label: "स्थापना वर्ष",
+    value: "1952",
+    label: "ग्रामपंचायत स्थापना वर्ष",
     suffix: "पासून",
   },
 ];
@@ -30,7 +30,7 @@ const stats = [
 const StatsSection = () => {
   return (
     <section className="py-16 gradient-hero relative overflow-hidden">
-      {/* Background pattern */}
+      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAuMSI+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMiIvPjwvZz48L3N2Zz4=')]"></div>
       </div>
@@ -42,10 +42,10 @@ const StatsSection = () => {
             आकडेवारी
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-            वेलतूर गाव माहिती
+            वेलतूर गावाची माहिती
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto">
-            आमच्या गावाची महत्त्वाची आकडेवारी व माहिती
+            ग्रामपंचायत वेलतूरची महत्त्वाची लोकसंख्या व विकासविषयक माहिती
           </p>
         </div>
 
