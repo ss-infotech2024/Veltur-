@@ -32,7 +32,7 @@ const leadershipMembers = [
   {
     name: "श्री. अशोक शंकरराव रोडे",
     position: "ग्रामपंचायत अधिकारी",
-    badge: "ग्रामविकास अधिकारी",
+    badge: "ग्रामपंचायत अधिकारी",
     color: "bg-primary",
     icon: <User className="w-8 h-8" />,
     image: "/21.jpeg",

@@ -56,34 +56,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Gallery & Social */}
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-gold">फोटो गॅलरी</h3>
-            <div className="grid grid-cols-3 gap-2 mb-4">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <div key={i} className="aspect-square rounded-md bg-maroon-light overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-maroon-light to-maroon flex items-center justify-center text-xs">
-                    📷
-                  </div>
-                </div>
-              ))}
-            </div>
-            <h4 className="font-semibold mb-2">आम्हाला फॉलो करा</h4>
-            <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 rounded-full bg-maroon-light flex items-center justify-center hover:bg-saffron transition-colors">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-maroon-light flex items-center justify-center hover:bg-saffron transition-colors">
-                <Youtube size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-maroon-light flex items-center justify-center hover:bg-saffron transition-colors">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-maroon-light flex items-center justify-center hover:bg-saffron transition-colors">
-                <Twitter size={18} />
-              </a>
-            </div>
-          </div>
+
         </div>
       </div>
 
@@ -92,7 +65,18 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2 text-sm">
             <p>© 2024 वेलतूर ग्रामपंचायत, पं.स. सावकर पं. जामखेड. सर्व हक्क राखीव.</p>
-            <p>विकसित: <span className="text-saffron font-medium">SS Infotech</span></p>
+            <p>
+              विकसित:{" "}
+              <a
+                href="https://ssinfotech.co"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-saffron font-medium hover:underline"
+              >
+                SS Infotech
+              </a>
+            </p>
+
           </div>
         </div>
       </div>

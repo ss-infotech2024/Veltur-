@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            विकास, स्वच्छता, जलव्यवस्थापन, डिजिटल सेवा आणि नागरिक कल्याणासाठी कटिबद्ध. 
+            विकास, स्वच्छता, जलव्यवस्थापन, डिजिटल सेवा आणि नागरिक कल्याणासाठी कटिबद्ध.
             आमच्या गावाच्या प्रगतीसाठी एकत्रितपणे काम करूया.
           </p>
 
@@ -51,15 +51,15 @@ const HeroSection = () => {
           {/* Stats preview */}
           <div className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-primary-foreground/20 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <div>
-              <p className="text-3xl font-bold text-gold">1687</p>
+              <p className="text-3xl font-bold text-gold">668</p>
               <p className="text-primary-foreground/70 text-sm">लोकसंख्या</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-gold">580+</p>
+              <p className="text-3xl font-bold text-gold">399.4+</p>
               <p className="text-primary-foreground/70 text-sm">हेक्टर क्षेत्रफळ</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-gold">1948</p>
+              <p className="text-3xl font-bold text-gold">1962</p>
               <p className="text-primary-foreground/70 text-sm">स्थापना वर्ष</p>
             </div>
           </div>
@@ -69,7 +69,7 @@ const HeroSection = () => {
       {/* Bottom wave */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-          <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="hsl(40, 30%, 97%)"/>
+          <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="hsl(40, 30%, 97%)" />
         </svg>
       </div>
     </section>
