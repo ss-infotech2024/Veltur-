@@ -3,7 +3,7 @@ import { Users, Map, Building, Calendar } from "lucide-react";
 const stats = [
   {
     icon: Users,
-    value: "688",
+    value: "668",
     label: "एकूण लोकसंख्या",
     suffix: "नागरिक (पुरुष: 358, स्त्री: 328)",
   },
@@ -21,7 +21,7 @@ const stats = [
   },
   {
     icon: Calendar,
-    value: "1952",
+    value: "1962",
     label: "ग्रामपंचायत स्थापना वर्ष",
     suffix: "पासून",
   },

@@ -30,7 +30,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold text-foreground mb-6">वेलतूर ग्रामपंचायत माहिती</h2>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   <strong>पंचायत समिती:</strong> चामोर्शी<br />
-                  <strong>लोकसंख्या:</strong> १६८२<br />
+                  <strong>लोकसंख्या:</strong> 1962<br />
                   <strong>क्षेत्रफळ:</strong> ५८०.४ हेक्टर
                 </p>
                 <p className="text-muted-foreground mb-4 leading-relaxed">
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="text-6xl mb-4">🏛️</div>
                 <h3 className="text-2xl font-bold mb-2">वेलतूर</h3>
                 <p className="text-primary-foreground/80">ता. चामोर्शी, जि. गडचिरोली</p>
-                <p className="text-3xl font-bold text-gold mt-4">१६८२</p>
+                <p className="text-3xl font-bold text-gold mt-4">1962</p>
                 <p className="text-primary-foreground/80">लोकसंख्या</p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const About = () => {
           {/* Info Cards - Updated with actual data */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {[
-              { icon: Users, label: "लोकसंख्या", value: "१६८२", desc: "एकूण नागरिक" },
+              { icon: Users, label: "लोकसंख्या", value: "1962", desc: "एकूण नागरिक" },
               { icon: MapPin, label: "क्षेत्रफळ", value: "५८०.४", desc: "हेक्टर" },
               { icon: Wheat, label: "मुख्य पीक", value: "भात", desc: "धान शेती" },
               { icon: Droplets, label: "पाणीपुरवठा", value: "नळ योजना", desc: "शुद्ध पाणी" },

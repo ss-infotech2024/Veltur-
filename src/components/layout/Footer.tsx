@@ -13,7 +13,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="mt-1 text-saffron" />
-                <span>वेलतूर ग्रामपंचायत कार्यालय,<br />पो. दवकी, ता. सावकर,<br />जि. जामखेड, महाराष्ट्र</span>
+                <span>वेलतूर ग्रामपंचायत कार्यालय,<br />पो. दवकी, ता. सावकर,<br />जि. नागपूर, महाराष्ट्र</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} className="text-saffron" />
@@ -64,7 +64,7 @@ const Footer = () => {
       <div className="border-t border-maroon-light">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2 text-sm">
-            <p>© 2024 वेलतूर ग्रामपंचायत, पं.स. सावकर पं. जामखेड. सर्व हक्क राखीव.</p>
+            <p>© 2026 वेलतूर ग्रामपंचायत,सर्व हक्क राखीव.</p>
             <p>
               विकसित:{" "}
               <a

@@ -60,7 +60,7 @@ const Contact = () => {
                         <p className="text-muted-foreground">
                           वेलतूर ग्रामपंचायत कार्यालय,<br />
                           वेलतूर, पो. दवकी,<br />
-                          ता. सावकर, जि. जामखेड,<br />
+                          ता. सावकर, जि. नागपूर,<br />
                           महाराष्ट्र ४१३४०८
                         </p>
                       </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                 <div className="aspect-video bg-secondary rounded-xl flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="w-12 h-12 text-primary mx-auto mb-2" />
-                    <p className="text-muted-foreground">वेलतूर ग्रामपंचायत, जामखेड</p>
+                    <p className="text-muted-foreground">वेलतूर ग्रामपंचायत, नागपूर</p>
                     <p className="text-sm text-muted-foreground mt-2">
                       गूगल मॅप्स वर शोधा: "वेलतूर ग्रामपंचायत"
                     </p>
