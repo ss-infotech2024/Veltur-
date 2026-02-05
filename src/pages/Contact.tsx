@@ -77,7 +77,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-bold text-foreground mb-1">फोन</h3>
                         <p className="text-muted-foreground">
-                          ग्रामसेवक: +91 9881851068<br />
+                          ग्रामरोजगार सेवक: +91 9881851068<br />
                           सरपंच: +91 9823731765<br />
                           उपसरपंच: +91 9421320202
                         </p>

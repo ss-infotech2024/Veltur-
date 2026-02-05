@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const services = [
   {
     icon: Building2,
-    title: "ग्रामसेवक कार्यालय",
+    title: "ग्रामरोजगार सेवक कार्यालय",
     description: "सर्व प्रशासकीय कामकाज व नागरिक सेवा केंद्र",
     color: "text-primary",
     bg: "bg-primary/10",

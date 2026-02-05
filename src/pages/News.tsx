@@ -129,7 +129,7 @@ const News = () => {
                     <h3 className="font-bold text-red-800 mb-1">आपत्कालीन संपर्क</h3>
                     <p className="text-red-700 text-sm">
                       कोणत्याही आपत्कालीन परिस्थितीत तात्काळ 112 वर संपर्क साधा | 
-                      ग्रामसेवक: +91 7588XXXXXX
+                      ग्रामरोजगार सेवक: +91 7588XXXXXX
                     </p>
                   </div>
                 </div>

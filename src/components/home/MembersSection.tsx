@@ -72,7 +72,7 @@ const leadershipMembers = [
 
 // Staff members (without images)
 const staffMembers = [
-  { name: "श्री. सुरेश पवार", role: "ग्रामसेवक", emoji: "" },
+  { name: "श्री. सुरेश पवार", role: "ग्रामरोजगार सेवक", emoji: "" },
   { name: "श्री. अमित वानखेडे", role: "कार्यालय सहायक", emoji: "" },
   { name: "श्री. राजू मेश्राम", role: "स्वच्छता कर्मचारी", emoji: "" },
   { name: "श्रीमती कविता गजभिये", role: "डाटा एंट्री ऑपरेटर", emoji: "" },

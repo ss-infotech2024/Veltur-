@@ -141,7 +141,7 @@ const galleryItems = [
 
   // Team Gallery
   {
-    title: "ग्रामसेवक कार्यालय",
+    title: "ग्रामरोजगार सेवक कार्यालय",
     image: team1,
     category: "टीम गॅलरी"
   },
